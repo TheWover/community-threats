@@ -2,7 +2,7 @@
 
 This threat is explained further in SCYTHE's Threat Thursday blog: https://www.scythe.io/library/threatthursday-apt41
 
-Based on the Adversary Emulation Plan published here: https://security-tzu.com/2020/09/23/emulation-plan-for-apt41/
+Based on the Adversary Emulation Plan published here: https://web.archive.org/web/20210413032502/https://security-tzu.com/2020/09/23/emulation-plan-for-apt41/ (Web Archive)
 
 To emulate:
 
