@@ -1,6 +1,6 @@
 # menuPass Adversary Emulation Plan
 
-The threat is explained further in the SCYTHE Threat Thursday blog.
+The threat is explained further in the SCYTHE Threat Thursday blog: https://www.scythe.io/library/threat-thursday-menupass
 
 Based on the Adversary Emulation Plan published here: https://github.com/center-for-threat-informed-defense/adversary_emulation_library/blob/master/menuPass/Emulation_Plan/yaml/menupass.yaml
 
