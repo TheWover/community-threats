@@ -1,6 +1,8 @@
+# EvilCorp Adversary Emulation Plan
+
 This threat is explained further in SCYTHE's Threat Thursday blog: https://www.scythe.io/library/threatthursday-evil-corp
 
-To Emulate:
+## Instructions
 
 1. Download and import the threat in JSON format to your SCYTHE instance - https://github.com/scythe-io/community-threats/blob/master/EvilCorp/WastedLocker_scythe_threat.json
 2. Go to the Threat Catalog and select "WastedLocker"
