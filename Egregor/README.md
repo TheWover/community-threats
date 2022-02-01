@@ -2,7 +2,7 @@
 
 This threat is explained further in SCYTHE's Threat Thursday blog: https://www.scythe.io/library/threatthursday-egregor-ransomware
 
-To emulate:
+## Instructions
 1. Download and import the threat in JSON format to your SCYTHE instance - https://raw.githubusercontent.com/scythe-io/community-threats/master/Egregor/Egregor_scythe_threat.json
 2. Download the Virtual File System (VFS) files under Egregor/VFS
 3. Upload the VFS files to your SCYTHE VFS in the following location: VFS:/shared/egregor
