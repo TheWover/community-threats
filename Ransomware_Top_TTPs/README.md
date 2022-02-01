@@ -1,6 +1,6 @@
 # Ransomware Top 10 TTPs Adversary Emulation Plan
 
-This adversary emulation plan was created for a customer that asked "what are the top 10 TTPs used by Ransomware" and goes with this blog: 
+This adversary emulation plan was created for a customer that asked "what are the top 10 TTPs used by Ransomware" and goes with this blog: https://www.scythe.io/library/threat-thursday-top-ransomware-ttps
 
 To emulate:
 1. Download and import the threat in JSON format to your SCYTHE instance
