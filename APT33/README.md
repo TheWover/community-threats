@@ -8,7 +8,7 @@ It demonstrates execution of Powershell and Lateral Movement using SCYTHE's clie
 
 ## Instructions
 
-1. Download and import the threat in JSON format to your SCYTHE instance - https://github.com/TheWover/community-threats/blob/edits/APT33/APT33_v2_scythe_threat.json
+1. Download and import the threat in JSON format to your SCYTHE instance - https://github.com/scythe-io/community-threats/blob/edits/APT33/APT33_v2_scythe_threat.json
 2. Go to the Threat Catalog and select "APT33"
 3. Click "Create Campaign from Threat"
 4. Name the Campaign
