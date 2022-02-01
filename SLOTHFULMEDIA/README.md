@@ -1,5 +1,7 @@
 # SLOTHFULMEDIA Adversary Emulation Plan
 
+This threat is explained further in SCYTHE's Threat Thursday blog: https://www.scythe.io/library/threatthursday-slothfulmedia
+
 Based on Cyber Threat Intelligence from US-Cert: https://us-cert.cisa.gov/ncas/analysis-reports/ar20-275a
 
 To emulate:
