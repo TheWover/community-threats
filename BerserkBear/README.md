@@ -1,6 +1,8 @@
+# BerserkBear Adversary Emulation Plan
+
 This threat is explained further in SCYTHE's Threat Thursday blog: https://www.scythe.io/library/threatthursday-bersek-bear
 
-To Emulate:
+## Instructions
 
 1. Download and import the threat in JSON format to your SCYTHE instance: https://github.com/scythe-io/community-threats/blob/master/BerserkBear/Threat_Thursday_-_Berserk_Bear_scythe_threat.json
 2. Go to the Threat Catalog and select "Threat Thursday - Berserk Bear
