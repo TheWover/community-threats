@@ -2,8 +2,8 @@
 
 This threat is based on The DFIR Report post on May 12, 2021: https://thedfirreport.com/2021/05/12/conti-ransomware/
 
-To emulate:
-1. Download and import the threat in JSON format to your SCYTHE instance - https://raw.githubusercontent.com/scythe-io/community-threats/master/Conti/Conti_scythe_threat.json
+## Instructions
+1. Download and import the threat in JSON format to your SCYTHE instance: https://raw.githubusercontent.com/scythe-io/community-threats/master/Conti/Conti_scythe_threat.json
 2. Download the Virtual File System (VFS) files under Conti/VFS
 3. Upload the VFS files to your SCYTHE VFS in the following location: VFS:/shared/Conti
 4. Create a new campaign, selecting HTTPS, and ensuring the communication options match the CTI: --cp yourdomain[.]com:443 --secure true --multipart 10240 --heartbeat 62 --jitter 39
