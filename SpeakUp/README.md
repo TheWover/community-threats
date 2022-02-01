@@ -2,7 +2,7 @@ This threat is explained further in SCYTHE's Threat Thursday blog: https://www.s
 
 To Emulate:
 
-1. Download and import the threat in JSON format to your SCYTHE instance - https://github.com/scythe-io/community-threats/blob/master/SpeakUp/SpeakUp_for_OSX_scythe_threat.json2. 
+1. Download and import the threat in JSON format to your SCYTHE instance - https://github.com/scythe-io/community-threats/blob/master/SpeakUp/SpeakUp_for_OSX_scythe_threat.json. 
 2. Go to the Threat Catalog and select "Speakup for OSX"
 3. Click "Create Campaign from Threat"
 4. Name the Campaign
