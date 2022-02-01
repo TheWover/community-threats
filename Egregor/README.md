@@ -1,6 +1,6 @@
 # Egregor Adversary Emulation Plan
 
-This threat is explained further in SCYTHE's Threat Thursday blog: https://www.scythe.io/library/threatthursday-egregor
+This threat is explained further in SCYTHE's Threat Thursday blog: https://www.scythe.io/library/threatthursday-egregor-ransomware
 
 To emulate:
 1. Download and import the threat in JSON format to your SCYTHE instance - https://raw.githubusercontent.com/scythe-io/community-threats/master/Egregor/Egregor_scythe_threat.json
