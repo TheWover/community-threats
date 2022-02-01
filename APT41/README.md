@@ -2,11 +2,11 @@
 
 This threat is explained further in SCYTHE's Threat Thursday blog: https://www.scythe.io/library/threatthursday-apt41
 
-Based on the Adversary Emulation Plan published here: https://security-tzu.com/2020/09/23/emulation-plan-for-apt41/
+Based on the Adversary Emulation Plan published here: https://web.archive.org/web/20210413032502/https://security-tzu.com/2020/09/23/emulation-plan-for-apt41/ (Web Archive)
 
 To emulate:
 
-1. Download and import the threat in JSON format to your SCYTHE instanc:https://github.com/scythe-io/community-threats/blob/master/APT41/APT41_scythe_threat.json
+1. Download and import the threat in JSON format to your SCYTHE instance: https://github.com/scythe-io/community-threats/blob/master/APT41/APT41_scythe_threat.json
 2. Download the Virtual File System (VFS) files under APT41/VFS: https://github.com/ElaineNeuk/community-threats/tree/master/APT41/VFS
 3. Upload the VFS files to your SCYTHE VFS in the following location: VFS:/shared/APT41
 4. Click "Create Campaign from Threat"
