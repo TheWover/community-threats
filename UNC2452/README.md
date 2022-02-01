@@ -1,5 +1,7 @@
 # UNC2452 Supply Chain Attack Adversary Emulation Plan
 
+This threat is explained further in SCYTHE Threat Thursday blog: https://www.scythe.io/library/threatthursday-unc2452
+
 This threat is based on information published by the Mitre ATT&CK project on the actions now credited to APT29 : https://attack.mitre.org/groups/G0118/
 
 To emulate:
