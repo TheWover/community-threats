@@ -201,8 +201,15 @@
                 "request": "cmd /c rmdir /Q /S %USERPROFILE%\\Desktop\\DarkSide\"",
                 "rtags": [],
                 "type": "message"
+            },
+            "27": {
+                "depends_on": "93b6b9cf-78d2-45ee-a174-08290fdf73db",
+                "module": "run",
+                "request": "cmd /c del \"%USERPROFILE%\\Desktop\\exfil.zip\"",
+                "type": "message"
             }
         },
-        "signature": "3ce1cbeedb097e1a0c3b83ebdd6c955a7433cf29"
+        "signature": "3ce1cbeedb097e1a0c3b83ebdd6c955a7433cf29",
+        "tags": []
     }
 }
